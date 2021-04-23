@@ -14,6 +14,6 @@
 3) Go to http://127.0.0.1:8000/<br>
 4) Start celery worker<br>
 (If in windows: ~ celery -A setari worker -l info -P gevent)
-(If in Linux: ~ celery -A setari worker -l info)
+(If in Linux: ~ celery -A setari worker -l info)<br>
 5) Start celery beat<br>
 ~ celery -A setari beat -l info
