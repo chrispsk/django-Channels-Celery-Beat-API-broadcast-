@@ -8,12 +8,12 @@
   <li>pip install redis</li>
  </ul>
 <p>Next: See: settings.py, asgi.py, celery.py, consumer.py, tasks.py, views.py, urls.py, templates/index.html </p>
-########### GET JOKES LIVE EVERY 3 SECONDS #########
-1) Start Django server
-2) Start Redis (download for windows or linux or... what you have)
-3) Go to http://127.0.0.1:8000/
-4) Start celery worker
+########### GET JOKES LIVE EVERY 3 SECONDS #########<br>
+1) Start Django server<br>
+2) Start Redis (download for windows or linux or... what you have)<br>
+3) Go to http://127.0.0.1:8000/<br>
+4) Start celery worker<br>
 (If in windows: ~ celery -A setari worker -l info -P gevent)
 (If in Linux: ~ celery -A setari worker -l info)
-5) Start celery beat
+5) Start celery beat<br>
 ~ celery -A setari beat -l info
